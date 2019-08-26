@@ -5,7 +5,7 @@ const helpedS = document.querySelector(".helped");
 const counterS = document.querySelector(".counter");
 const namedStickyS = document.querySelector(".namedSticky");
 
-
+//instance of factoryfunction
 const stickyDome = DigitalMentor();
 
 const tempsourceS = document.querySelector(".userTemplate").innerHTML;
@@ -35,4 +35,3 @@ function showText(){
 
 
 submitProblemS.addEventListener("click", showText);
-// helpedS.addEventListener("click", );
