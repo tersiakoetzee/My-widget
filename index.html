@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script type="text/x-template" class="userTemplate">
+     
+        {{#each stickyPro}}
+        <li class = "mySticky">{{this.name}} 
+            : {{this.msg}}<li>
+        {{/each}}
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Digital Mentor</h1>
+    <div class="row">
+        <div class="col-12">
+            <div class="myProblem">
+                <h4>Please enter your name </h4>
+                <input type="name" class="askedQ" value="">
+
+
+                <h4>Please enter your problem</h4>
+                <textarea class="problemBox" rows="3">
+
+                </textarea>
+                <button type="submit" class="submitProblem">submit</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12">
+            <ul class="namedSticky">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="helpedQ">
+                <div class="warning"></div>
+                <button class="helped">Assisted</button>
+            </div>
+            <div class="counter"><b> 0 </b></div>
+
+        </div>
+    </div>
+
+    <script src="./js/sticky.js" charset="utf-8"></script>
+    <script src="./js/dom.js" charset="utf-8"></script>
+
+</body>
+
+</html>

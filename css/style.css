@@ -1,0 +1,58 @@
+
+
+
+body{
+    background-image: url(./qnq.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-left: 14em;
+}
+.askedQ{
+    justify-content: center;
+    border-radius:1em;
+    width:200px;
+    margin-left: 40em;
+    border:solid turquoise;
+    padding: 0.5em;
+    
+}
+h4{
+    margin-left: 30em; 
+    color: black; 
+}
+.helpedQ{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    color: black;
+    margin-left: 3em;
+}
+.problemBox{
+    margin-top: 1em;
+    justify-content: center;
+    margin-left: 42em;
+    border: solid turquoise;
+}
+.counter{
+   
+    justify-content: center;
+    margin-inline-start: 40em;
+  
+}
+b{
+    size: 20em;
+    color: black;
+}
+.namedSticky{
+    justify-content: center;
+    margin-right: 2em;
+    border: solid black 0.5px;
+    background-color: turquoise;
+    padding: 2px;
+    list-style: none;
+    font-size: 1.5em;
+    float: left;
+    margin-left: 23em;
+}
